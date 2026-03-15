@@ -304,7 +304,15 @@ h2 {
   .column-div {
     padding: 24px;
   }
+  
+  #task-form {
+    width: 80vw;
+    height: auto;
+  }
 }
+
+
+
 
 /* ========================
    Modal Styles
@@ -333,6 +341,7 @@ h2 {
   flex-direction: column;
   gap: 1px;
   position: relative;
+  box-sizing: border-box;
 }
 
 .modal-header {
