@@ -370,10 +370,9 @@ select {
 textarea {
   width: 100%;
   padding: 8px;
-  padding-left: ;
   border: 1px solid #ccc;
   border-radius: 4px;
-  resize: none; /* Allow vertical resizing */
+  resize: none; 
 } 
 
 
