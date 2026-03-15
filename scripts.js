@@ -30,6 +30,13 @@ tasks.forEach(task => {
 // Close modal
 closeBtn.addEventListener('click', () => {
   modal.close();
+}); 
+
+// Optional: Close modal when clicking outside of it
+window.addEventListener('click', (event) => {
+  if (event.target === modal) { 
+    modal.close();
+  }
 });
 
 
