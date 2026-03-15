@@ -367,13 +367,23 @@ select {
   border-radius: 4px;
 } 
 
-textarea {
+
+#task-form input[type="text"],
+#task-form textarea,
+#task-form select {
   width: 100%;
-  padding: 8px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 0.95rem;
   border: 1px solid #ccc;
   border-radius: 4px;
-  resize: none; 
-} 
+}
+
+#task-form textarea {
+  resize: none;
+  min-height: 90px;
+}
 
 
 
