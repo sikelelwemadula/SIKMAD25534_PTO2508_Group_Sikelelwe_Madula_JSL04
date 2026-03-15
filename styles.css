@@ -306,16 +306,21 @@ h2 {
   }
 }
 
-/******** Modal Styling ********/
+/* ========================
+   Modal Styles
+======================== */
 #task-modal {
   border: none;
   border-radius: 5px;
   padding: 0;
   background: transparent;
 }
+
 #task-modal::backdrop {
   background-color: rgba(0, 0, 0, 0.45);
 }
+
+/******** Task Form ********/
 #task-form {
   background-color: #ffffff;
   border-radius: 5px;
@@ -329,12 +334,14 @@ h2 {
   gap: 1px;
   position: relative;
 }
+
 .modal-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
 }
+
 .close-btn {
   border: none;
   background-color: white;
@@ -353,7 +360,7 @@ h2 {
   right: 0;
 }
  
-
+/******** Button Styles ********/
 label {
   margin-top: 15px;
   margin-bottom: 6px;
@@ -367,7 +374,7 @@ select {
   border-radius: 4px;
 } 
 
-
+/******** Text Input Styles ********/
 #task-form input[type="text"],
 #task-form textarea,
 #task-form select {
